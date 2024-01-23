@@ -8,12 +8,12 @@
     </head>
     <body>
         <div th:replace="fragments/header :: header"></div>
-        <header th:fragment="header">Header TODO</header>
+        <header th:fragment="header"></header>
         <section>
             <h1>Welcome <span th:text="${doctorname}"></span></h1>
             <h3>Your number is <span th:text="${doctornumber}"></span></h3>
         </section>
-        <header th:fragment="header">Footer TODO</footer>
+        <header th:fragment="header"></footer>
         <div th:replace="fragments/footer :: footer"></div>
     </body>
 </html>
